@@ -79,7 +79,7 @@ export default class Calculate extends Component {
       <View style={{flex: 1, flexDirection: 'column'}}>
         <View style={{flex:1, alignItems:'center', justifyContent:'center', backgroundColor: 'white'}}>
           <Text style={{color:'black', fontSize: 40}}>
-            {this.state.count !== 0 ? this.state.count:null}
+            {this.state.count !== 0 ? this.state.count:0}
           </Text>
         </View>
         <View style={styles.numButtonContainer}>
